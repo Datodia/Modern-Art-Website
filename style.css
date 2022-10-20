@@ -35,7 +35,9 @@ html {
 }
 
 .main-container .modern .text-box h1,
-.main-container .middle .top .txt-box h2 {
+.main-container .middle .top .txt-box h2,
+.main-container .bottom .right .black h2,
+footer .text h2 {
     color: var(--gray);
     font-family: 'Outfit';
     font-style: normal;
@@ -92,4 +94,46 @@ html {
 .main-container .bottom .right .black h1 {
     margin: 25px 16px;
     font-size: 50px;
+}
+
+.main-container .bottom .right .black {
+    width: 343px;
+    height: 293px;
+    background-color: var(--black);
+    margin: auto;
+    padding-top: 20px;
+}
+
+.main-container .bottom .right .black h1,
+.main-container .bottom .right .black h2,
+footer .text h2 {
+    color: var(--white);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--black);
+    margin-top: 100px;
+}
+
+footer .text,
+footer .logo,
+footer .soc-netw {
+    width: 375px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+footer .logo,
+footer .soc-netw {
+    padding: 20px 32px;
+}
+
+footer .soc-netw {
+    display: flex;
+    gap: 20px;
+}
+
+footer .text h2 {
+    font-size: 16px;
 }
