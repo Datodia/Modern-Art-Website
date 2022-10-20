@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #151515;
+    --gold: #D5966C;
+    --gray: #444;
+    --white: #ffffff;
+}
+
+.main-container .modern .text-box .btn {
+    width: 375px;
+    height: 570px;
+    margin: 0;
+    background-image: url(assets/map.svg);
+}
+
+.main-container .modern .text-box .btn .next {
+    transform: rotate(180deg);
+    background-color: var(--gold);
+    position: relative;
+    top: -250px;
+}
+
+.main-container .modern .text-box .btn .loc {
+    position: relative;
+    top: -250px;
+}
+
+.main-container .modern .text-box .btn .dot {
+    position: relative;
+    left: -101px;
+}
+
+.main-container .desc {
+    background-color: var(--black);
+}
+
+.main-container .desc .title h1 {
+    font-size: 50px;
+    padding: 48px 16px;
+    color: var(--white);
+}
+
+.main-container .desc .about h2 {
+    font-size: 32px;
+    color: var(--gold);
+    padding: 0 16px 20px 16px;
+}
+
+.main-container .desc .about p {
+    font-family: 'outfit';
+    padding: 0 16px 20px 16px;
+    font-size: 18px;
+    color: var(--white);
+}
+
+footer {
+    margin-top: 0;
+    background-color: var(--gold);
+}
+
+footer .text h2 {
+    color: var(--black);
+}
