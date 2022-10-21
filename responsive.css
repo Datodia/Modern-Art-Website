@@ -94,6 +94,7 @@
         height: 216px;
         align-items: flex-start;
         padding-top: 60px;
+        justify-content: center;
     }
 
     footer .text,
@@ -107,47 +108,91 @@
         padding: 0 52px;
     }
 
+}
 
-    .main-container .map {
-        position: relative;
-        left: 35px;
-        top: -380px;
-        width: 768px;
-        height: 600px;
+@media screen and (min-width: 1440px) {
+    .main-container {
+        width: 1440px;
+    }
 
+    .main-container .modern .img-box .black {
+        width: 450px;
+        height: 800px;
+        background-color: var(--black);
+    }
+
+    .main-container .modern .grandma {
+        width: 540px;
+        height: 800px;
+        background-image: url(assets/desct-grandma.svg);
+    }
+
+    .main-container .modern .text-box h1,
+    .main-container .middle .top .txt-box h2,
+    .main-container .bottom .right .black h2,
+    footer .text h2 {
+        font-size: 22px;
+    }
+
+    .main-container .text-box {
+        transform: translate(-70px, 190px);
     }
 
     .main-container .modern .text-box .btn {
-        width: 100%;
-        height: 100%;
-        background-image: url(assets/tablet-map.svg);
+        margin: 106px 0 120px 16px;
     }
 
-    .main-container .modern .text-box .btn .dot {
-        left: 99px;
+    .main-container .img-box .title {
+        mix-blend-mode: difference;
+        width: 451px;
+        height: 172px;
+        transform: translate(147px, 202px);
     }
 
-    .main-container .desc {
-        display: flex;
-        height: 436px;
-        justify-content: space-between;
+    .main-container .img-box .title h1 {
+        color: var(--white);
+        font-size: 96px;
     }
 
-    .main-container .desc .about {
-        width: 389px;
-        padding: 86px 0 0 0;
+    .main-container .middle {
+        width: 1110px;
     }
 
-    .main-container .desc .title {
-        padding: 35px 0 0 0;
+    .main-container .middle .top .txt-box h1,
+    .main-container .bottom .right .black h1 {
+        font-size: 60px;
     }
 
-    .main-container .desc .about :nth-child(2) {
-        width: 200px;
+    .main-container .middle .top .txt-box {
+        width: 350px;
     }
 
-    footer .text h2 {
-        width: 300px;
+    .main-container .middle .top .img {
+        width: 635px;
+        height: 400px;
+        background-image: url(assets/desct-middle.svg);
+    }
+
+    .main-container .bottom .left {
+        width: 635px;
+        height: 720px;
+        background-image: url(assets/desct-middle-left.svg);
+    }
+
+    .main-container .middle .bottom .right .img {
+        width: 445px;
+        height: 313px;
+        margin: 19px 0;
+        background-image: url(assets/desct-middle-right.svg);
+    }
+
+    .main-container .bottom .right .black {
+        width: 445px;
+        height: 389px;
+    }
+
+    footer {
+        height: 244px;
     }
 
 }
