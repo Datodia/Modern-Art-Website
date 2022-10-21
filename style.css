@@ -108,6 +108,10 @@ footer .text h2 {
     font-size: 50px;
 }
 
+.main-container .bottom .right {
+    margin-bottom: 100px;
+}
+
 .main-container .bottom .right .black {
     width: 343px;
     height: 293px;
@@ -123,17 +127,17 @@ footer .text h2 {
 }
 
 footer {
-    width: 100%;
+    width: 375px;
     background-color: var(--black);
-    margin-top: 100px;
+    margin: auto;
 }
 
 footer .text,
 footer .logo,
 footer .soc-netw {
     width: 375px;
-    margin: auto;
     padding: 0 16px;
+    margin: auto;
 }
 
 footer .logo,

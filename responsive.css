@@ -95,6 +95,7 @@
         align-items: flex-start;
         padding-top: 60px;
         justify-content: center;
+        width: 100%;
     }
 
     footer .text,
