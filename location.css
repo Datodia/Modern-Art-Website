@@ -68,3 +68,96 @@ footer {
 footer .text h2 {
     color: var(--black);
 }
+
+
+
+
+/* RESPONSIVEE */
+@media screen and (min-width: 768px) {
+
+    .main-container .map {
+        position: relative;
+        left: 35px;
+        top: -380px;
+        width: 768px;
+        height: 600px;
+
+    }
+
+    .main-container .modern .text-box .btn {
+        width: 100%;
+        height: 100%;
+        background-image: url(assets/tablet-map.svg);
+    }
+
+    .main-container .modern .text-box .btn .dot {
+        left: 99px;
+    }
+
+    .main-container .desc {
+        display: flex;
+        height: 436px;
+        justify-content: space-between;
+    }
+
+    .main-container .desc .about {
+        width: 389px;
+        padding: 86px 0 0 0;
+    }
+
+    .main-container .desc .title {
+        padding: 35px 0 0 0;
+    }
+
+    .main-container .desc .about :nth-child(2) {
+        width: 200px;
+    }
+
+    footer .text h2 {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-container .map {
+        left: 55px;
+        top: -297px;
+        width: 1440px;
+        height: 598px;
+
+    }
+
+    .main-container .modern .text-box .btn {
+        width: 100%;
+        height: 100%;
+        background-image: url(assets/desct-map.svg);
+    }
+
+    .main-container .modern .text-box .btn .dot {
+        left: 431px;
+    }
+
+    .main-container .desc {
+        justify-content: space-around;
+    }
+
+    .main-container .desc .title h1 {
+        font-size: 70px;
+    }
+
+    .main-container .desc .title {
+        width: 300px;
+    }
+
+    .main-container .desc .about h2 {
+        font-size: 36px;
+    }
+
+    .main-container .desc .about p {
+        font-size: 22px;
+    }
+
+    .main-container .desc .about :nth-child(2) {
+        width: 280px;
+    }
+}
