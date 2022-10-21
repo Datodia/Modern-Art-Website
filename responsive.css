@@ -106,6 +106,7 @@
     footer .logo,
     footer .soc-netw {
         padding: 0 52px;
+        width: 240px;
     }
 
 }
@@ -193,6 +194,15 @@
 
     footer {
         height: 244px;
+    }
+
+    footer .logo,
+    footer .soc-netw {
+        width: 470px;
+    }
+
+    footer .soc-netw {
+        justify-content: end;
     }
 
 }

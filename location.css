@@ -13,6 +13,15 @@
     --white: #ffffff;
 }
 
+.main-container .modern .text-box .btn:hover .loc {
+    background-color: var(--gold);
+}
+
+.main-container .modern .text-box .btn:hover .next {
+    background-color: var(--black);
+}
+
+
 .main-container .modern .text-box .btn {
     width: 375px;
     height: 570px;
