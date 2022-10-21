@@ -22,9 +22,13 @@ html {
     margin: auto;
 }
 
+.main-container .modern .grandma {
+    width: 375px;
+    height: 240px;
+    background-image: url(assets/grandma.svg);
+}
+
 .main-container .img-box .title {
-    /* width: 90%;
-    margin: auto; */
     margin: 30px 16px;
 }
 
@@ -75,19 +79,27 @@ footer .text h2 {
     justify-content: center;
 }
 
-.main-container .middle .top img,
-.main-container .bottom .left img,
-.main-container .bottom .right img {
-    margin: 0 16px;
+
+.main-container .bottom .left {
+    width: 343px;
+    height: 480px;
+    margin: 20px 16px;
+    background-image: url(assets/midl-left.svg);
 }
 
-.main-container .bottom .left img {
-    margin-top: 32px;
-    margin-bottom: 16px;
+.main-container .middle .bottom .right .img {
+    width: 343px;
+    height: 200px;
+    margin: 16px;
+    background-image: url(assets/midl-right.svg);
 }
 
-.main-container .bottom .right img {
-    margin-bottom: 16px;
+
+.main-container .middle .top .img {
+    width: 343px;
+    height: 320px;
+    margin: auto;
+    background-image: url(assets/midle.svg);
 }
 
 .main-container .middle .top .txt-box h1,
